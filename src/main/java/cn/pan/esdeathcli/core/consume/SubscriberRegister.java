@@ -10,7 +10,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 订阅者注册中心
- * @author  pan
  **/
 public class SubscriberRegister {
     private final static Logger logger = LoggerFactory.getLogger(SubscriberRegister.class);

@@ -2,10 +2,7 @@ package cn.pan.esdeathcli.core;
 
 import cn.pan.esdeathcli.proto.BaseResult;
 
-/**
- *
- * @author jixiang
- */
+
 public class Result {
     public final Status status;
     public final String desc;

@@ -12,7 +12,6 @@ import java.lang.reflect.Type;
  * <p>
  *     消费消息的订阅者，消息订阅者都需要实现此类
  * </p>
- * @author  pan
  **/
 public abstract class AbstractSubscriber<T> {
     private final Class<T> type;

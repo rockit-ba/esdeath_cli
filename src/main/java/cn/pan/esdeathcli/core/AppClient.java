@@ -4,10 +4,7 @@ import cn.pan.esdeathcli.proto.ResultStatus;
 
 import java.io.Closeable;
 
-/**
- *
- * @author jixiang
- */
+
 public abstract class AppClient implements Closeable {
     protected final String consumerGroup;
     protected final EsdeathClient client;
