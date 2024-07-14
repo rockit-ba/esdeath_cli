@@ -8,7 +8,7 @@
 <dependency>
     <groupId>io.github.rockit-ba</groupId>
     <artifactId>esdeath_cli</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
