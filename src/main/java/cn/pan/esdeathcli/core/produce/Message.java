@@ -1,5 +1,6 @@
 package cn.pan.esdeathcli.core.produce;
 
+import cn.pan.esdeathcli.commom.JsonUtil;
 import com.google.common.base.Strings;
 
 import java.util.Objects;
@@ -17,6 +18,14 @@ public class Message {
             }
             this.delayTime = delayTime;
             this.payload = payload;
+        }
+
+    /**
+     * @param delayTime 延迟时间
+     * @param payload   消息体,该对象必须可以转换为json
+     */
+    public Message(long delayTime, Object payload) {
+            this(delayTime, JsonUtil.toJson(payload));
         }
 
         @Override
