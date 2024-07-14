@@ -1,11 +1,15 @@
 # 说明
 
+若果使用的是springboot，建议直接使用starter引入：https://github.com/rockit-ba/esdeath_cli_boot_starter
+
 当前client包课独立使用，不依赖spring框架，请引入maven依赖：
 
 ```xml
-<groupId>io.github.rockit-ba</groupId>
+<dependency>
+    <groupId>io.github.rockit-ba</groupId>
     <artifactId>esdeath_cli</artifactId>
-<version>1.0.1</version>
+    <version>1.0.1</version>
+</dependency>
 ```
 
 
